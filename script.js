@@ -6,7 +6,8 @@ console.log ("celsia: " + celsius);
 
 //document.body.innerHTML += "<p>" + "Váš převod je: " + "</p>";
 
-document.body.innerHTML += "<p>"  + fahrenheit + " stupňů Fahrenheita " + "= " + celsius + " stupňů Celsia" + "</p>";
+//document.body.innerHTML += "<p>"  + fahrenheit + " stupňů Fahrenheita " + "= " + celsius + " stupňů Celsia" + "</p>";
+document.body.innerHTML += `<p> ${fahrenheit} <b>stupňů Fahrenheita</b> = ${celsius} stupňů Celsia </p>`;
 
 let trouba = Math.round (celsius)
 console.log (trouba)
